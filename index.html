@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>Test</h1>
+    <header class="container mx-auto p-8">
+        <section class="flex justify-between items-center">
+            <h1 class="text-3xl font-extrabold">R-Ticket</h1>
+      
+            <nav>
+              <ul class="flex space-x-5">
+                <li>Home</li>
+                <li>About</li>
+                <li>Destination</li>
+                <li>Search</li>
+              </ul>
+            </nav>
+      
+            <div class="flex space-x-2 items-center rounded-2xl bg-green-100 py-4 px-6">
+              <h4 class="text-green-600">Bus</h4>
+              <img src="images/bus-icon.png" alt="">
+            </div>
+          </section>
+
+          <section class="bg-no-repeat bg-center rounded-3xl my-5 h-[520px]">
+            <div class="hero h-auto" style="background-image: url(./images/banner.png);">
+              <div class="hero-overlay bg-opacity-60"></div>
+              <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-md">
+                  <h1 class="text-3xl text-white mb-4 raleway-800">End-to-End Travel with </h1>
+                  <h1 class="text-3xl raleway-800 text-[#1DD100] mb-4">R Paribahan</h1>
+                  <p class="text-white inter-regular  text-lg">
+                    We put our vision forward and explored ways and means to continuously improve passenger comfort.</p>
+                  <button class="bg-[#61b155] btn px-5 py-4 rounded-xl mt-3 primary">Buy Tickets</button>
+                </div>
+              </div>
+            </div>
+          </section>
+    </header>
+
+    <main>
+      <!-- best-offer -->
+      
+    </main>
 </body>
-</html>
