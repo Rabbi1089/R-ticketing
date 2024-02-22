@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
@@ -12,6 +12,9 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
 
 <body class="w-[1100px] mx-auto">
   <header class="container mx-auto p-8">
@@ -159,44 +162,39 @@
 
       <div class="grid gap-4  grid-cols-4 grid-rows-10">
         <h3
-          class="px-9 py-5 border-2 border-green-300 rounded-2xl text-center border-opacity-40 hover:bg-[#1DD100] card">
+          id="A1" class="px-9 py-5 border-2 border-green-300 rounded-2xl text-center border-opacity-40 hover:bg-[#1DD100] card">
           A1
         </h3>
         <h3
-          class="px-9 py-5 border-2 border-green-300 rounded-2xl text-center border-opacity-40 hover:bg-[#1DD100] card">
+        id="A2" class="px-9 py-5 border-2 border-green-300 rounded-2xl text-center border-opacity-40 hover:bg-[#1DD100] card">
           A2</h3>
-        <h3
+        <h3 id="A3"
           class="px-9 py-5 border-2 border-green-300 rounded-2xl text-center border-opacity-40 hover:bg-[#1DD100] card">
           A3</h3>
-        <h3
+        <h3 id="A4"
           class="px-9 py-5 border-2 border-green-300 rounded-2xl text-center border-opacity-40 hover:bg-[#1DD100] card">
           A4</h3>
-        <h3
+        <h3 id="B1"
           class="px-9 py-5 border-2 border-green-300 rounded-2xl text-center border-opacity-40 hover:bg-[#1DD100] card">
           B1</h3>
-        <h3
+        <h3 id="B2"
           class="px-9 py-5 border-2 border-green-300 rounded-2xl text-center border-opacity-40 hover:bg-[#1DD100] card">
           B2</h3>
         <h3
-          class="px-9 py-5 border-2 border-green-300 rounded-2xl text-center border-opacity-40 hover:bg-[#1DD100] card">
+        id="B3" class="px-9 py-5 border-2 border-green-300 rounded-2xl text-center border-opacity-40 hover:bg-[#1DD100] card">
           B3</h3>
-        <h3
+        <h3 id="B4"
           class="px-9 py-5 border-2 border-green-300 rounded-2xl text-center border-opacity-40 hover:bg-[#1DD100] card">
           B4</h3>
       </div>
-
-
-
     </div>
-
-
 
 
     <!--  -->
     <div class="pl-14">
       <h2 class="text-2xl font-bold raleway-600 ">Select Your Seat</h2>
       <div class="flex justify-around">
-        <h4 class="text-lg font-semibold">Seat <span><sup class="text-red-600 text-lg" id="seatSup">0</sup></span>
+        <h4 class="text-lg font-semibold">Seat
         </h4>
         <h4 class="text-lg font-semibold">Class</h4>
         <h4 class="text-lg font-semibold">Price</h4>
@@ -208,8 +206,6 @@
           <h3 class="text-xl font-bold raleway-600 ">Total Price</h3>
           <h3 class="text-xl font-bold">BDT <span id="totalPrice">0</span></h3>
         </div>
-
-        <!-- Open the modal using ID.showModal() method -->
         <button class="btn mt-8 bg-[#1DD100] text-white font-bold text-2xl px-44 py-8 pb-14 rounded-xl"
           onclick="my_modal_2.showModal()">Next</button>
         <dialog id="my_modal_2" class="modal">
@@ -237,20 +233,12 @@
         <div class="flex justify-between mt-6">
           <p class="underline opacity-70 inter-regular">Terms and Conditions</p>
           <p class="underline opacity-70 inter-regular">Cancellation Policy</p>
-
-
-
-
         </div>
-
-
-
       </div>
-
-
     </div>
   </div>
-
 </section>
+<script src="scripts/script.js"></script>
   </main>
+
 </body>
