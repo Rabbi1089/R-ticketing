@@ -4,8 +4,6 @@ for (let index = 0; index < cards.length; index++) {
   const card = cards[index];
 card.addEventListener('click' , function () {
     //console.log("clicked");
-
-
      const totalPriceElement = document.getElementById('totalPrice');
      const totalPriceText = totalPriceElement.innerText;
      const totalPriceNumber = parseInt(totalPriceText);
